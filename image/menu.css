@@ -1,0 +1,58 @@
+body{
+background-color: greenyellow;
+}
+#menu{
+  width: 100%;
+  display: block;
+  float: left;
+}
+#menu ul li{
+ background-color:blueviolet;
+ font-size: 16px;
+ float:left;
+ color: red;
+ list-style-type: none;
+ margin: 8px;
+ 
+}
+#menu ul li a{
+font-size: 16px;
+margin: 10px;
+text-decoration:none;
+color: black;
+}
+#menu ul li a:hover{
+background-color:crimson;
+}
+.bloco{
+    width: 50%;
+    height: auto;
+    display: block;
+    float: left;
+    background-color: blueviolet;
+}
+.bloco img{
+    width: 90%;
+}
+.bloco p{
+    width: 40%;
+    margin: 5%;
+}
+.esq{
+    width: 45%;
+    margin: 5%;
+}
+.dir{
+    float: left;
+}
+.corPreto{
+    background-color: black;
+}
+.quebra{
+    clear: both;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
